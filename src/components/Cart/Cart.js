@@ -41,7 +41,7 @@ const Cart = (props) => {
   const submitOrderHandler = async (userData) => {
     setIsSubmitting(true);
      await fetch(
-      "https://plants-app-ef536-default-rtdb.firebaseio.com/orders.json",
+      "https://plants-app-eb493-default-rtdb.firebaseio.com/orders.json",
       {
         method: "POST",
         body: JSON.stringify({

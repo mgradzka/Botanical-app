@@ -11,7 +11,7 @@ const ProductsList = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://plants-app-ef536-default-rtdb.firebaseio.com/Plants.json"
+        "https://plants-app-eb493-default-rtdb.firebaseio.com/Plants.json"
       );
       if (!response.ok) {
         throw new Error("Something went wrong!");
